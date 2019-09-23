@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ItemView">
+
+    <ImageView
+        android:layout_width="1080px"
+        android:layout_height="1080px"
+        android:id="@+id/imageView"
+        android:padding="25dp"
+
+        />
+
+    <TextView
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:id="@+id/textn"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="25dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:id="@+id/textd"
+        android:textAlignment="center"
+        android:textSize="16sp"
+
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="50dp">
+
+        <Button
+            android:id="@+id/buttonc"
+            android:layout_width="540px"
+            android:layout_height="50dp"
+            android:text="Add to Cart" />
+
+        <Button
+            android:id="@+id/buttonb"
+            android:layout_width="540px"
+            android:layout_height="50dp"
+            android:text="BUY" />
+
+    </LinearLayout>
+
+</LinearLayout>
